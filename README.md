@@ -8,7 +8,7 @@ code to do this is in get_football-data_data.py
 
 ### predict home wins
 
-neural net for "predicting" whether a game will end in a home win or a home tie/loss based on the halftime goal difference and fulltime shot difference
+neural net for "predicting" whether a game will end in a hometeam win based on the halftime goal difference and fulltime shot difference
 
 trained on data from the top 5 European leagues
 
