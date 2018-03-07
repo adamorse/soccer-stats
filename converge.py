@@ -14,6 +14,9 @@ import matplotlib.pyplot as plt
 from matplotlib import animation
 from scipy.stats import entropy
 from scipy.optimize import curve_fit
+import seaborn as sns
+
+sns.set()
 
 # function to compute Jensen-Shannon divergence
 
@@ -226,11 +229,11 @@ plt.close()
 fig = plt.figure()
 
 # set up the axes
-ax = plt.axes(xlim=(0, 20), ylim=(0, .12))
+ax = plt.axes(xlim=(-1, 20), ylim=(0, .12))
 line, = ax.plot([], [],'o',linestyle='None')
 
 # add title, legend, etc.
-plt.title('\'00-\'01 Bundesliga points distribution over time')
+plt.title('\'99-\'00 Premier League points distribution over time')
 plt.xticks([],'')
 plt.xlabel('Ranked teams')
 plt.ylabel('Proportion of total points')
